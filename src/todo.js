@@ -18,6 +18,7 @@ function createToDoList (toDoArray = [], name = "My ToDo List") {
             toDoArray.splice(index, 1);
         }
     }
+    // TODO don't directly expose toDoArray
     return {id, addToDo, deleteToDo, toDoArray, name};
 }
 
