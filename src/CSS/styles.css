@@ -1,0 +1,10 @@
+@import url('main-container.css');
+@import url('header.css');
+@import url('sidebar.css')
+
+  /* .checkbox:checked {
+    --checked-color: orange;
+    clip-path: circle(50% at 50% 50%);
+    background-image: radial-gradient(circle, var(--checked-color), var(--checked-color) 60%, #eee 61%);
+    border: 2px solid var(--checked-color);
+} */

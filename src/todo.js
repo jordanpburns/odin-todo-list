@@ -1,8 +1,8 @@
-function createToDoItem (title, description, dueDate, priority) {
+function createToDoItem (title, notes, URL, date, time, tags, location, flag, priority) {
     const id = create_id();
     let completed = false;
 
-    return { id, title, description, dueDate, priority, completed };
+    return { id, title, notes, URL, date, time, tags, location, flag, priority, completed };
 }
 
 function createToDoList (toDoArray = [], name = "My ToDo List") {

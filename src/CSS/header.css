@@ -1,0 +1,31 @@
+#header {
+    grid-area: 1 / 2 / 2 / 3;
+    flex-direction: row;
+    justify-content: right;
+    align-items: center;
+}
+
+.header-icon-container {
+    place-content: center;
+    background-color:white;
+    border: 1px white solid;
+    border-radius: 3px;
+    height: 23px;
+    width: 23px;
+    padding: 4px;
+    margin: 3px;
+
+}
+
+.header-icon-container:hover {
+    background-image: linear-gradient(rgb(0 0 0/10%) 0 0);
+}
+
+.header-icon {
+    height: 11px;
+    filter: invert(49%) sepia(0%) saturate(17%) hue-rotate(205deg) brightness(86%) contrast(88%);
+}
+
+.button {
+    text-align: center;
+}
