@@ -1,6 +1,7 @@
 @import url('main-container.css');
 @import url('header.css');
-@import url('sidebar.css')
+@import url('sidebar.css');
+@import url('todo-list-container.css');
 
   /* .checkbox:checked {
     --checked-color: orange;

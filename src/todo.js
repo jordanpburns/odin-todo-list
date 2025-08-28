@@ -19,6 +19,8 @@ function createToDoList (toDoArray = [], name = "My ToDo List") {
         }
     }
     // TODO don't directly expose toDoArray
+    // find out how to create an iterator method to iterate through
+    // toDoArray when using the TodoList object itself as iterator
     return {id, addToDo, deleteToDo, toDoArray, name};
 }
 

@@ -1,8 +1,10 @@
 #header {
-    grid-area: 1 / 2 / 2 / 3;
-    flex-direction: row;
-    justify-content: right;
     align-items: center;
+    flex-direction: row;
+    grid-row: 1 / 2;
+    height: 30px;
+    justify-content: right;
+    
 }
 
 .header-icon-container {
@@ -14,7 +16,6 @@
     width: 23px;
     padding: 4px;
     margin: 3px;
-
 }
 
 .header-icon-container:hover {
