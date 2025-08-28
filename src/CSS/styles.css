@@ -3,6 +3,7 @@
 @import url('sidebar.css');
 @import url('todo-list-container.css');
 @import url('todo-header.css');
+@import url('todo-item.css');
 
   /* .checkbox:checked {
     --checked-color: orange;
