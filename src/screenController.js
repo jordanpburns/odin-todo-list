@@ -18,9 +18,20 @@ const startHomeScreen = () => {
 }
 
 function displayToDos(library) {
-    // create and display ToDos in current library
-    const todoListContainer = document.getElementById("todo-list-container");
+
+    // get current todoList
     const todoList = library.getActiveToDoList();
+
+    // add todoList title and number of todos
+    const todoListTitle = document.getElementById("todo-list-title");
+    const todoItemCount = document.getElementById("todo-item-count");
+
+    todoListTitle.textContent = todoList.name;
+    todoItemCount.textContent = todoList.toDoArray.length;
+
+    // add all todoItems to screen
+    const todoListContainer = document.getElementById("todo-list-container");  
+    
     for (const todoItem of todoList.toDoArray) {
         //function to create todo rendering
         const todoDiv = createTodoDiv(todoItem);

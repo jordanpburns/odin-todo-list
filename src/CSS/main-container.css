@@ -32,7 +32,7 @@ body {
 
     box-shadow: var(--shadow-elevation-low);
     grid-column: 2 / 3;
-    grid-template-rows: 30px 1fr;
+    grid-template-rows: 30px 30px 1fr;
     height: 100vh;
     z-index: 2;
 }

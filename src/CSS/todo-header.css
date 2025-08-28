@@ -1,0 +1,13 @@
+#todo-header {
+    padding: 12px;
+    display: flex;
+    grid-row: 2 / 3;
+    align-items: center;
+    justify-content: space-between;
+    color: rgb(255, 149, 3);
+    font-size: 24px;
+}
+
+#todo-list-title {
+    font-weight: bold;
+}
